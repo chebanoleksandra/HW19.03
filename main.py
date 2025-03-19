@@ -1,4 +1,4 @@
-def sum_even_sqrt(lst:list[int, float]) -> list:
+def sum_even_sqrt(lst:list[int, float]):
     def sqrt():
         return sum([i**2 for i in lst if i%2==0])
     return sqrt
